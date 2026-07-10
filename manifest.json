@@ -1,0 +1,549 @@
+{
+  "category_order": [
+    "street",
+    "exterior",
+    "lane",
+    "factory",
+    "office",
+    "reception",
+    "dorm",
+    "residence",
+    "rooftop",
+    "facility",
+    "video"
+  ],
+  "category_labels": {
+    "street": "街景",
+    "exterior": "建物外觀",
+    "lane": "側巷通道",
+    "factory": "一樓廠區",
+    "office": "辦公室",
+    "reception": "一樓接待區",
+    "dorm": "二樓宿舍",
+    "residence": "三樓住家",
+    "rooftop": "四樓頂樓",
+    "facility": "設備與公安",
+    "video": "空拍與影片"
+  },
+  "category_icon": {
+    "street": "📍",
+    "exterior": "🏢",
+    "lane": "🚗",
+    "factory": "🏭",
+    "office": "💼",
+    "reception": "🛋️",
+    "dorm": "🛏️",
+    "residence": "🏠",
+    "rooftop": "🌇",
+    "facility": "🧯",
+    "video": "🎬"
+  },
+  "items": [
+    {
+      "id": "video-01",
+      "category": "video",
+      "src_name": "805189935.146638.mp4",
+      "full": "assets/video/video-01.mp4",
+      "thumb": null,
+      "type": "video"
+    },
+    {
+      "id": "video-02",
+      "category": "video",
+      "src_name": "805361258.727573.mp4",
+      "full": "assets/video/video-02.mp4",
+      "thumb": null,
+      "type": "video"
+    },
+    {
+      "id": "street-01",
+      "category": "street",
+      "src_name": "A街景1.jpg",
+      "full": "assets/full/street-01.jpg",
+      "thumb": "assets/thumb/street-01.jpg",
+      "type": "image",
+      "w": 1477,
+      "h": 1108
+    },
+    {
+      "id": "street-02",
+      "category": "street",
+      "src_name": "A街景2.jpg",
+      "full": "assets/full/street-02.jpg",
+      "thumb": "assets/thumb/street-02.jpg",
+      "type": "image",
+      "w": 1477,
+      "h": 1108
+    },
+    {
+      "id": "street-03",
+      "category": "street",
+      "src_name": "A街景3.jpg",
+      "full": "assets/full/street-03.jpg",
+      "thumb": "assets/thumb/street-03.jpg",
+      "type": "image",
+      "w": 1477,
+      "h": 1108
+    },
+    {
+      "id": "exterior-01",
+      "category": "exterior",
+      "src_name": "B外觀1.jpg",
+      "full": "assets/full/exterior-01.jpg",
+      "thumb": "assets/thumb/exterior-01.jpg",
+      "type": "image",
+      "w": 1477,
+      "h": 1108
+    },
+    {
+      "id": "exterior-02",
+      "category": "exterior",
+      "src_name": "B外觀2.jpg",
+      "full": "assets/full/exterior-02.jpg",
+      "thumb": "assets/thumb/exterior-02.jpg",
+      "type": "image",
+      "w": 1477,
+      "h": 1108
+    },
+    {
+      "id": "exterior-03",
+      "category": "exterior",
+      "src_name": "B外觀3.jpg",
+      "full": "assets/full/exterior-03.jpg",
+      "thumb": "assets/thumb/exterior-03.jpg",
+      "type": "image",
+      "w": 1108,
+      "h": 1477
+    },
+    {
+      "id": "lane-01",
+      "category": "lane",
+      "src_name": "C側巷1.jpg",
+      "full": "assets/full/lane-01.jpg",
+      "thumb": "assets/thumb/lane-01.jpg",
+      "type": "image",
+      "w": 1477,
+      "h": 1108
+    },
+    {
+      "id": "lane-02",
+      "category": "lane",
+      "src_name": "C側巷2.jpg",
+      "full": "assets/full/lane-02.jpg",
+      "thumb": "assets/thumb/lane-02.jpg",
+      "type": "image",
+      "w": 1477,
+      "h": 1108
+    },
+    {
+      "id": "lane-03",
+      "category": "lane",
+      "src_name": "C側巷3.jpg",
+      "full": "assets/full/lane-03.jpg",
+      "thumb": "assets/thumb/lane-03.jpg",
+      "type": "image",
+      "w": 1477,
+      "h": 1108
+    },
+    {
+      "id": "lane-04",
+      "category": "lane",
+      "src_name": "C側巷門.jpg",
+      "full": "assets/full/lane-04.jpg",
+      "thumb": "assets/thumb/lane-04.jpg",
+      "type": "image",
+      "w": 1108,
+      "h": 1477
+    },
+    {
+      "id": "factory-01",
+      "category": "factory",
+      "src_name": "D廠區1.jpg",
+      "full": "assets/full/factory-01.jpg",
+      "thumb": "assets/thumb/factory-01.jpg",
+      "type": "image",
+      "w": 1477,
+      "h": 1108
+    },
+    {
+      "id": "factory-02",
+      "category": "factory",
+      "src_name": "D廠區2.jpg",
+      "full": "assets/full/factory-02.jpg",
+      "thumb": "assets/thumb/factory-02.jpg",
+      "type": "image",
+      "w": 1477,
+      "h": 1108
+    },
+    {
+      "id": "factory-03",
+      "category": "factory",
+      "src_name": "D廠區3.jpg",
+      "full": "assets/full/factory-03.jpg",
+      "thumb": "assets/thumb/factory-03.jpg",
+      "type": "image",
+      "w": 1477,
+      "h": 1108
+    },
+    {
+      "id": "factory-04",
+      "category": "factory",
+      "src_name": "D廠區4.jpg",
+      "full": "assets/full/factory-04.jpg",
+      "thumb": "assets/thumb/factory-04.jpg",
+      "type": "image",
+      "w": 1477,
+      "h": 1108
+    },
+    {
+      "id": "factory-05",
+      "category": "factory",
+      "src_name": "D廠區5.jpg",
+      "full": "assets/full/factory-05.jpg",
+      "thumb": "assets/thumb/factory-05.jpg",
+      "type": "image",
+      "w": 1477,
+      "h": 1108
+    },
+    {
+      "id": "factory-06",
+      "category": "factory",
+      "src_name": "D廠區6廁所.jpg",
+      "full": "assets/full/factory-06.jpg",
+      "thumb": "assets/thumb/factory-06.jpg",
+      "type": "image",
+      "w": 1477,
+      "h": 1108
+    },
+    {
+      "id": "office-01",
+      "category": "office",
+      "src_name": "E辦公室1.jpg",
+      "full": "assets/full/office-01.jpg",
+      "thumb": "assets/thumb/office-01.jpg",
+      "type": "image",
+      "w": 1477,
+      "h": 1108
+    },
+    {
+      "id": "office-02",
+      "category": "office",
+      "src_name": "E辦公室2.jpg",
+      "full": "assets/full/office-02.jpg",
+      "thumb": "assets/thumb/office-02.jpg",
+      "type": "image",
+      "w": 1477,
+      "h": 1108
+    },
+    {
+      "id": "office-03",
+      "category": "office",
+      "src_name": "E辦公室3廁所1.jpg",
+      "full": "assets/full/office-03.jpg",
+      "thumb": "assets/thumb/office-03.jpg",
+      "type": "image",
+      "w": 1477,
+      "h": 1108
+    },
+    {
+      "id": "office-04",
+      "category": "office",
+      "src_name": "E辦公室3廁所2.jpg",
+      "full": "assets/full/office-04.jpg",
+      "thumb": "assets/thumb/office-04.jpg",
+      "type": "image",
+      "w": 1477,
+      "h": 1108
+    },
+    {
+      "id": "reception-01",
+      "category": "reception",
+      "src_name": "F一樓接待區1.jpg",
+      "full": "assets/full/reception-01.jpg",
+      "thumb": "assets/thumb/reception-01.jpg",
+      "type": "image",
+      "w": 1477,
+      "h": 1108
+    },
+    {
+      "id": "reception-02",
+      "category": "reception",
+      "src_name": "F一樓接待區2.jpg",
+      "full": "assets/full/reception-02.jpg",
+      "thumb": "assets/thumb/reception-02.jpg",
+      "type": "image",
+      "w": 1477,
+      "h": 1108
+    },
+    {
+      "id": "reception-03",
+      "category": "reception",
+      "src_name": "F一樓接待區3.jpg",
+      "full": "assets/full/reception-03.jpg",
+      "thumb": "assets/thumb/reception-03.jpg",
+      "type": "image",
+      "w": 1477,
+      "h": 1108
+    },
+    {
+      "id": "reception-04",
+      "category": "reception",
+      "src_name": "F一樓接待區4.jpg",
+      "full": "assets/full/reception-04.jpg",
+      "thumb": "assets/thumb/reception-04.jpg",
+      "type": "image",
+      "w": 1477,
+      "h": 1108
+    },
+    {
+      "id": "dorm-01",
+      "category": "dorm",
+      "src_name": "F二樓宿舍1.jpg",
+      "full": "assets/full/dorm-01.jpg",
+      "thumb": "assets/thumb/dorm-01.jpg",
+      "type": "image",
+      "w": 1477,
+      "h": 1108
+    },
+    {
+      "id": "dorm-02",
+      "category": "dorm",
+      "src_name": "F二樓宿舍2.jpg",
+      "full": "assets/full/dorm-02.jpg",
+      "thumb": "assets/thumb/dorm-02.jpg",
+      "type": "image",
+      "w": 1477,
+      "h": 1108
+    },
+    {
+      "id": "dorm-03",
+      "category": "dorm",
+      "src_name": "F二樓宿舍3.jpg",
+      "full": "assets/full/dorm-03.jpg",
+      "thumb": "assets/thumb/dorm-03.jpg",
+      "type": "image",
+      "w": 1477,
+      "h": 1108
+    },
+    {
+      "id": "dorm-04",
+      "category": "dorm",
+      "src_name": "F二樓逃生梯.jpg",
+      "full": "assets/full/dorm-04.jpg",
+      "thumb": "assets/thumb/dorm-04.jpg",
+      "type": "image",
+      "w": 1477,
+      "h": 1108
+    },
+    {
+      "id": "residence-01",
+      "category": "residence",
+      "src_name": "G三樓住家1.jpg",
+      "full": "assets/full/residence-01.jpg",
+      "thumb": "assets/thumb/residence-01.jpg",
+      "type": "image",
+      "w": 1477,
+      "h": 1108
+    },
+    {
+      "id": "residence-02",
+      "category": "residence",
+      "src_name": "G三樓住家10.jpg",
+      "full": "assets/full/residence-02.jpg",
+      "thumb": "assets/thumb/residence-02.jpg",
+      "type": "image",
+      "w": 1477,
+      "h": 1108
+    },
+    {
+      "id": "residence-03",
+      "category": "residence",
+      "src_name": "G三樓住家11.jpg",
+      "full": "assets/full/residence-03.jpg",
+      "thumb": "assets/thumb/residence-03.jpg",
+      "type": "image",
+      "w": 1477,
+      "h": 1108
+    },
+    {
+      "id": "residence-04",
+      "category": "residence",
+      "src_name": "G三樓住家2.jpg",
+      "full": "assets/full/residence-04.jpg",
+      "thumb": "assets/thumb/residence-04.jpg",
+      "type": "image",
+      "w": 1477,
+      "h": 1108
+    },
+    {
+      "id": "residence-05",
+      "category": "residence",
+      "src_name": "G三樓住家3.jpg",
+      "full": "assets/full/residence-05.jpg",
+      "thumb": "assets/thumb/residence-05.jpg",
+      "type": "image",
+      "w": 1477,
+      "h": 1108
+    },
+    {
+      "id": "residence-06",
+      "category": "residence",
+      "src_name": "G三樓住家4.jpg",
+      "full": "assets/full/residence-06.jpg",
+      "thumb": "assets/thumb/residence-06.jpg",
+      "type": "image",
+      "w": 1477,
+      "h": 1108
+    },
+    {
+      "id": "residence-07",
+      "category": "residence",
+      "src_name": "G三樓住家5.jpg",
+      "full": "assets/full/residence-07.jpg",
+      "thumb": "assets/thumb/residence-07.jpg",
+      "type": "image",
+      "w": 1477,
+      "h": 1108
+    },
+    {
+      "id": "residence-08",
+      "category": "residence",
+      "src_name": "G三樓住家6.jpg",
+      "full": "assets/full/residence-08.jpg",
+      "thumb": "assets/thumb/residence-08.jpg",
+      "type": "image",
+      "w": 1477,
+      "h": 1108
+    },
+    {
+      "id": "residence-09",
+      "category": "residence",
+      "src_name": "G三樓住家7.jpg",
+      "full": "assets/full/residence-09.jpg",
+      "thumb": "assets/thumb/residence-09.jpg",
+      "type": "image",
+      "w": 1477,
+      "h": 1108
+    },
+    {
+      "id": "residence-10",
+      "category": "residence",
+      "src_name": "G三樓住家8.jpg",
+      "full": "assets/full/residence-10.jpg",
+      "thumb": "assets/thumb/residence-10.jpg",
+      "type": "image",
+      "w": 1477,
+      "h": 1108
+    },
+    {
+      "id": "residence-11",
+      "category": "residence",
+      "src_name": "G三樓住家9.jpg",
+      "full": "assets/full/residence-11.jpg",
+      "thumb": "assets/thumb/residence-11.jpg",
+      "type": "image",
+      "w": 1477,
+      "h": 1108
+    },
+    {
+      "id": "rooftop-01",
+      "category": "rooftop",
+      "src_name": "H四樓頂樓1.jpg",
+      "full": "assets/full/rooftop-01.jpg",
+      "thumb": "assets/thumb/rooftop-01.jpg",
+      "type": "image",
+      "w": 1477,
+      "h": 1108
+    },
+    {
+      "id": "rooftop-02",
+      "category": "rooftop",
+      "src_name": "H四樓頂樓2.jpg",
+      "full": "assets/full/rooftop-02.jpg",
+      "thumb": "assets/thumb/rooftop-02.jpg",
+      "type": "image",
+      "w": 1477,
+      "h": 1108
+    },
+    {
+      "id": "rooftop-03",
+      "category": "rooftop",
+      "src_name": "H四樓頂樓3.jpg",
+      "full": "assets/full/rooftop-03.jpg",
+      "thumb": "assets/thumb/rooftop-03.jpg",
+      "type": "image",
+      "w": 1477,
+      "h": 1108
+    },
+    {
+      "id": "rooftop-04",
+      "category": "rooftop",
+      "src_name": "H四樓頂樓4.jpg",
+      "full": "assets/full/rooftop-04.jpg",
+      "thumb": "assets/thumb/rooftop-04.jpg",
+      "type": "image",
+      "w": 1477,
+      "h": 1108
+    },
+    {
+      "id": "rooftop-05",
+      "category": "rooftop",
+      "src_name": "H四樓頂樓5.jpg",
+      "full": "assets/full/rooftop-05.jpg",
+      "thumb": "assets/thumb/rooftop-05.jpg",
+      "type": "image",
+      "w": 1477,
+      "h": 1108
+    },
+    {
+      "id": "rooftop-06",
+      "category": "rooftop",
+      "src_name": "H四樓頂樓6.jpg",
+      "full": "assets/full/rooftop-06.jpg",
+      "thumb": "assets/thumb/rooftop-06.jpg",
+      "type": "image",
+      "w": 1477,
+      "h": 1108
+    },
+    {
+      "id": "rooftop-07",
+      "category": "rooftop",
+      "src_name": "H四樓頂樓7.jpg",
+      "full": "assets/full/rooftop-07.jpg",
+      "thumb": "assets/thumb/rooftop-07.jpg",
+      "type": "image",
+      "w": 1477,
+      "h": 1108
+    },
+    {
+      "id": "facility-01",
+      "category": "facility",
+      "src_name": "LINE_ALBUM_岱維_260710_1.jpg",
+      "full": "assets/full/facility-01.jpg",
+      "thumb": "assets/thumb/facility-01.jpg",
+      "type": "image",
+      "w": 1108,
+      "h": 1477
+    },
+    {
+      "id": "facility-02",
+      "category": "facility",
+      "src_name": "LINE_ALBUM_岱維_260710_2.jpg",
+      "full": "assets/full/facility-02.jpg",
+      "thumb": "assets/thumb/facility-02.jpg",
+      "type": "image",
+      "w": 1108,
+      "h": 1477
+    },
+    {
+      "id": "facility-03",
+      "category": "facility",
+      "src_name": "LINE_ALBUM_岱維_260710_3.jpg",
+      "full": "assets/full/facility-03.jpg",
+      "thumb": "assets/thumb/facility-03.jpg",
+      "type": "image",
+      "w": 1108,
+      "h": 1477
+    }
+  ]
+}

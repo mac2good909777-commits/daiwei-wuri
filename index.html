@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="zh-Hant">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1, user-scalable=no">
+<title>岱維股份有限公司 | 廠辦現況相簿</title>
+<meta name="description" content="岱維股份有限公司 廠辦標的現況照片導覽 — 台中市烏日區">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Noto+Sans+TC:wght@400;500;700;900&family=Inter:wght@400;600;800&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<header class="hero">
+  <div class="hero-inner">
+    <p class="hero-eyebrow">工業地產現況照片導覽</p>
+    <h1 class="hero-title">岱維股份有限公司</h1>
+    <p class="hero-address">📍 414臺中市烏日區五光里五光路189巷41號</p>
+    <a class="map-link" href="https://maps.app.goo.gl/pfqNsv5BpKLKmiHn8" target="_blank" rel="noopener">在 Google 地圖開啟 ↗</a>
+    <p class="hero-sub">睦聚地產開發 整理提供 · 點選照片可放大瀏覽</p>
+    <div class="hero-stats" id="heroStats"></div>
+  </div>
+</header>
+
+<section class="map-section">
+  <iframe
+    src="https://www.google.com/maps?q=414%E8%87%BA%E4%B8%AD%E5%B8%82%E7%83%8F%E6%97%A5%E5%8D%80%E4%BA%94%E5%85%89%E8%B7%AF189%E5%B7%B741%E8%99%9F&output=embed"
+    loading="lazy"
+    referrerpolicy="no-referrer-when-downgrade"
+    allowfullscreen></iframe>
+</section>
+
+<nav class="tabs-wrap" id="tabsWrap">
+  <div class="tabs" id="tabs"></div>
+</nav>
+
+<main class="gallery-wrap">
+  <div class="gallery" id="gallery"></div>
+</main>
+
+<footer class="contact-footer">
+  <div class="contact-card">
+    <h2>聯繫窗口</h2>
+    <p class="contact-name">張現傑<span class="contact-role">｜工業不動產・設廠評估・整合服務</span></p>
+    <p class="contact-bio">17年以上不動產經驗。歷經信義集團完整訓練、磐石工業地產深耕，現專注工業地、廠房與產業用地之交易媒合、設廠選址與地主資產活化。</p>
+    <p class="contact-specialty">專長：工業地產買賣租賃、企業設廠選址評估、地主資產活化與土地開發諮詢</p>
+    <div class="contact-methods">
+      <a class="contact-btn primary" href="tel:0953909777">📱 0953-909-777</a>
+      <a class="contact-btn" href="https://line.me/ti/p/~0953909777" target="_blank" rel="noopener">💬 LINE：0953909777</a>
+    </div>
+    <p class="contact-meta">現職：睦聚地產開發 負責人　合作資源：瑞禾開發（建築・房產整合團隊）</p>
+    <p class="contact-cta">有需求歡迎直接聯繫張現傑：0953-909-777</p>
+  </div>
+</footer>
+
+<div class="lightbox" id="lightbox" aria-hidden="true">
+  <div class="lb-top">
+    <span class="lb-counter" id="lbCounter"></span>
+    <div class="lb-actions">
+      <button class="lb-btn" id="lbZoomOut" title="縮小">－</button>
+      <button class="lb-btn" id="lbZoomIn" title="放大">＋</button>
+      <button class="lb-btn" id="lbClose" title="關閉">✕</button>
+    </div>
+  </div>
+  <button class="lb-nav lb-prev" id="lbPrev" aria-label="上一張">‹</button>
+  <button class="lb-nav lb-next" id="lbNext" aria-label="下一張">›</button>
+  <div class="lb-stage" id="lbStage">
+    <img class="lb-img" id="lbImg" alt="">
+    <video class="lb-video" id="lbVideo" controls playsinline></video>
+  </div>
+  <p class="lb-hint">雙擊或滾輪可放大・拖曳可移動・左右滑動切換照片</p>
+</div>
+
+<script src="app.js"></script>
+</body>
+</html>
